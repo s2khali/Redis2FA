@@ -1,0 +1,23 @@
+{
+  "name": "Redis2FA",
+  "description": "A package to implement a randomly generated 2FA styled code in Redis",
+  "keywords": [
+    "2FA", "redis"
+  ],
+  "homepage": "https://github.com/s2khali/Redis2FA",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Schnell",
+      "email": "bwschnell52@gmail.com"
+    }
+  ],
+  "require": {
+    "predis/predis": "1.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Redis2FA\\": "../src"
+    }
+  }
+}
